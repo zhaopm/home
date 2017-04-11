@@ -118,3 +118,6 @@ bind '"\e[B": history-search-forward'
 bind '"\C-t": reverse-search-history'
 set show-all-if-ambiguous on
 set completion-ignore-case on 
+
+alias gl='git log --decorate --graph --all --pretty=format:"%C(3)%h:%C(auto)%d %C(245)[%C(199)%an: %C(37)%ar%C(245)] %C(252)%s%Creset"'
+alias gs='git status'
