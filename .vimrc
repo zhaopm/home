@@ -342,19 +342,10 @@ let g:miniBufExplModSelTarget = 1
 "g:solarized_visibility=   "normal"|   "high" or "low"
 "------------------------------------------------
 
-
-g:solarized_termcolors=   16      
-g:solarized_termtrans =   0       
-g:solarized_degrade   =   0       
-g:solarized_bold      =   1       
-g:solarized_underline =   1       
-g:solarized_italic    =   1       
-g:solarized_contrast  =   "normal"
-g:solarized_visibility=   "normal"
-
 "syntax enable
 set background=light
-colorscheme solarized
+"colorscheme solarized
+colorscheme desert 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " CSCOPE settings for vim           
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
